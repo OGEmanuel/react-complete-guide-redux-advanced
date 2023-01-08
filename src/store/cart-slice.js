@@ -38,6 +38,10 @@ const cartSlice = createSlice({
   },
 });
 
+const sendCartData = cartData => {
+  return () => {};
+};
+
 export const cartActions = cartSlice.actions;
 
 export default cartSlice;
